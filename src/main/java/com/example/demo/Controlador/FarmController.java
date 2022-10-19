@@ -23,6 +23,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/Farm")
+@CrossOrigin(origins = "*")
+
 public class FarmController {
      @Autowired
     private FarmService farmService;
