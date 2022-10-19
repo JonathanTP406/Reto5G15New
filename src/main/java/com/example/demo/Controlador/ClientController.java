@@ -23,6 +23,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/Client")
+@CrossOrigin(origins = "*")
+
 public class ClientController {
      @Autowired
     private ClientService clientService;
