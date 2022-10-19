@@ -23,6 +23,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/Message")
+@CrossOrigin(origins = "*")
+
 public class MessageController {
      @Autowired
     private MessageService messageService;
