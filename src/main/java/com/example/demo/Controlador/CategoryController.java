@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/Category")
+@CrossOrigin(origins = "*")
 
 public class CategoryController {
     @Autowired
